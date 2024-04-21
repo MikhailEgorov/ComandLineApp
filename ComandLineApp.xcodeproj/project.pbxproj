@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		814FF6502A0D468500C4626E /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814FF64F2A0D468500C4626E /* main.swift */; };
+		814FF6572A0D4AF700C4626E /* funcSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814FF6562A0D4AF700C4626E /* funcSum.swift */; };
+		814FF6592A0D4D9C00C4626E /* convertFunc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 814FF6582A0D4D9C00C4626E /* convertFunc.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		814FF64C2A0D468500C4626E /* ComandLineApp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ComandLineApp; sourceTree = BUILT_PRODUCTS_DIR; };
 		814FF64F2A0D468500C4626E /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		814FF6562A0D4AF700C4626E /* funcSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = funcSum.swift; sourceTree = "<group>"; };
+		814FF6582A0D4D9C00C4626E /* convertFunc.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = convertFunc.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +45,7 @@
 		814FF6432A0D468400C4626E = {
 			isa = PBXGroup;
 			children = (
+				814FF6582A0D4D9C00C4626E /* convertFunc.swift */,
 				814FF64E2A0D468500C4626E /* ComandLineApp */,
 				814FF64D2A0D468500C4626E /* Products */,
 			);
@@ -58,6 +63,7 @@
 			isa = PBXGroup;
 			children = (
 				814FF64F2A0D468500C4626E /* main.swift */,
+				814FF6562A0D4AF700C4626E /* funcSum.swift */,
 			);
 			path = ComandLineApp;
 			sourceTree = "<group>";
@@ -121,6 +127,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				814FF6502A0D468500C4626E /* main.swift in Sources */,
+				814FF6572A0D4AF700C4626E /* funcSum.swift in Sources */,
+				814FF6592A0D4D9C00C4626E /* convertFunc.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
